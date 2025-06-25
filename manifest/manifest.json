@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.22/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.22",
+  "version": "1.0.0",
+  "id": "01234567-89ab-cdef-0123-456789abcdef",
+  "developer": {
+    "name": "atman-33",
+    "websiteUrl": "https://atman-33.github.io/react-tailwind-ts-starter/",
+    "privacyUrl": "https://atman-33.github.io/react-tailwind-ts-starter/privacy",
+    "termsOfUseUrl": "https://atman-33.github.io/react-tailwind-ts-starter/terms"
+  },
+  "name": {
+    "short": "React Tailwind TS Starter",
+    "full": "React Tailwind TypeScript Starter App"
+  },
+  "description": {
+    "short": "React+Tailwind+TSのTeamsサンプルアプリ",
+    "full": "React+Tailwind CSS+TypeScriptで作ったMicrosoft Teams用サンプルアプリだよ！"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#38bdf8",
+  "staticTabs": [
+    {
+      "entityId": "home",
+      "scopes": [
+        "personal"
+      ],
+      "name": "Home",
+      "contentUrl": "https://atman-33.github.io/react-tailwind-ts-starter/",
+      "websiteUrl": "https://atman-33.github.io/react-tailwind-ts-starter/"
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "atman-33.github.io"
+  ]
+}
