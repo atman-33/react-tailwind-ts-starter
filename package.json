@@ -1,0 +1,42 @@
+{
+  "name": "react-tailwind-ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.12.2",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.0",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "tailwindcss": "^4.1.10",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.0",
+    "vite": "^7.0.0"
+  },
+  "scripts": {
+    "start": "vite preview",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "ts-check": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "validate": "pnpm lint && pnpm ts-check",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  }
+}
